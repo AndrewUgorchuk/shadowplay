@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>ShadowPlay</title>
+</head>
+<body>
+    <h1 id="title">SHADOWPLAY</h1>
+        <section class="inputs">
+            <div class="input">
+                <h2>Horizontal offset</h2>
+                <input type="range" min="-100" max="100" value="0" class="slider" id="xOffset">
+            </div>
+            <div class="input">
+                <h2>Vertical offset</h2>
+                <input type="range" min="-100" max="100" value="0" class="slider" id="yOffset">
+            </div>
+            <div class="input">
+                <h2>Blur</h2>
+                <input type="range" min="1" max="100" value="0" class="slider" id="blur">
+            </div>
+            <div class="input">
+                <h2>Alpha</h2>
+                <input type="range" min="1" max="100" value="50" class="slider" id="alpha">
+            </div>
+        </section>
+    
+    <div id="box"></div>
+
+    <input type="range" min="1" max="100" value="50" class="slider" id="title_size">
+
+
+<script src="script.js"></script>
+</body>
+</html>
